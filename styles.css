@@ -1,0 +1,85 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+
+}
+header{
+    width:100%;
+    height:100px;
+    box-sizing: border-box;
+    padding-top: 30px;
+    box-shadow: 0 2px 3px 5px lightblue;
+    text-align: center;
+    background-color: aqua;
+    
+}
+.body{
+    background-color: aliceblue;
+    width:100%;
+    height:100vh;
+    padding-top: 50px;
+}
+
+.container-CreateArea{
+    box-shadow: 5px 5px 5px 3px #333;
+    border-radius: 50px;
+    display:flex;
+    flex-flow: column nowrap;
+    width:70%;
+    margin:0 auto;
+    padding:2% 5% ;
+    gap:10px;
+}
+
+.container-CreateArea input,.container-CreateArea textarea{
+    border:none;
+    padding:2%;
+    font-size: 20px;
+    width:70%;  
+    border-radius: 20px;
+}
+.container-CreateArea input{
+    height:50px;
+}
+.container-CreateArea textarea{
+    height:100px;
+    resize: none;
+}
+
+.container-CreateArea label{
+    font-size: 25px;
+}
+.container-CreateArea button{
+    width:20%;
+    border-radius: 20px;
+    background-color: aquamarine;
+    height:50px;
+    border: none;
+}
+.container-CreateArea button:hover{
+    background-color: aqua;
+}
+.note-container{
+    display:flex;
+    flex-wrap: wrap;
+    gap:50px;
+    margin-top: 50px;
+}
+.note-div{
+    flex-basis: 30%;
+    text-align: justify;
+    background-color: burlywood;
+    padding:2%;
+    border-radius: 20px;
+}
+.note-div h1,.note-div p{
+    margin:5px;
+}
+.note-div button{
+    width:20%;
+    border:none;
+    border-radius: 10px;
+    height:30px;
+    margin-left: 80%;
+}
